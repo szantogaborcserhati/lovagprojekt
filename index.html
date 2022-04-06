@@ -1,30 +1,142 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-  body {background-color:rgba(200,200,200,0.8)}
-  h1{text-align:center; color: blue; text-shadow:3px 3px 3px white; background-color: lightgreen;  }
-  .text {
-    border:5px solid transparent;
-             border-image-source: url(./pict/szegecs1.jpg);
-             border-image-width: 10px;
-             border-image-slice: 10 35;
-             border-image-repeat: repeat;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body {
+        background-image:url(bbg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-</style>
+    h1 {
+        text-align: center;
+        font-size: 3em;    
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        text-shadow: 3px 1px 2px black;
+            
+    }
+    header{
+        background-color: rgba(192, 192, 192, 0.9);
+        margin: 1% 2% 0 2% ;
+        width: 96%;
+        padding: 1em;
+        box-shadow: black 15px 15px 15px;
+        border-radius: 30px 0 30px 0;
+        transition: 1s;
+    }
+    .first{
+        background-color: rgb(200, 200, 200);
+        width: 85%;
+        height: 80%;
+        margin-top: 3%;
+        opacity: 0.75;
+        transition: 1.4s;
+        border-radius: 20px 20px 20px 20px;
+        margin-bottom: 6%;
+        box-shadow: black 0px 20px 30px -10px;
+        border: 3px solid rgba(0, 0, 0, 0.75);
+
+
+    }
+    .first:hover{
+        background-color: rgb(200, 200, 200);
+        width: 85%;
+        height: 80%;
+        margin-top: 3%;
+        opacity: 1;
+        transition: 1.4s;
+        border: 3px solid rgba(0, 0, 0, 1);
+
+    }
+    p{
+        font-weight: bold;
+        color: black;
+        text-shadow: 6px 6px 6px gray;
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 10px;
+        margin: 15px;
+        font-style: italic;
+        
+    }
+    .nav{
+        background-color: black;
+        margin-top: 20px;
+    }
+    img{
+        width: 100%;
+        
+    }
+    .text{
+        border-right: 3px solid black;
+    }
+
+
+    @media only screen and (max-width: 775px)
+    {
+     .text{
+         border-right: none;
+         border-bottom: 3px solid black;
+     }
+     img{
+         width: 60%;
+         margin: 5% 25% 3% 20%;
+         
+     }
+     header{
+        font-size: smaller; 
+        width: 80%;
+        margin: 1% 10% 2% 10%;
+        transition: 1s;
+         
+     }  
+     
+     .first{
+         font-size: smaller;
+     }
+    }
+    
+    </style>
 </head>
 <body>
-<h1>Itt lesz a Cseri lovagprojektjének weboldala.<br>
-Készítik a 10 Ct tagjai.<br>
-  Hamarosan megjelenik<br></h1>
-  <p class="text">
-    Kosztolányi Dezső számos verse épít az emelkedettség, a közöttlét szemléleti pozíciójára. Versei azonban nem közösségi ihletésűek, hanem belső aggodalmak, válságok kivetítését és megoldási kísérleteit tartalmazzák. Értelmezésem szerint e versek közé tartozik a Hajnali részegség című, többszörösen darabjaira elemzett költeménye is. 
-A vers egy életkort illető válság verse. Az ötvenes éveibe lépő lírai alany élete folyamatát értékeli, s vallomásos hangon idézi fel azt az élményt, látomást, mely a fordulatot hozta számára. (Ezt a fordulatot az elemzők a „vendéglét” fogalmával kapcsolják össze: „...egy nagy ismeretlen Úrnak / vendége voltam.”) A fordulat az eddigi életvezetésével, életmódjával kapcsolatos élményhez kötődik: a korosodó ember kétellyel illeti eddig megszerzett értékeit, elért eredményeit, és kénytelen tudomásul venni a sokasodó halottainak számát. Értelmezésem szerint ez a válsághelyzet, melynek „kibeszélésével” találkozunk a mű nyitó egységében valamint zárlatában, amikor egyes szám második személyben tesz vallomást egy „barátjának”.
-Már a mű címe is a közöttlét fogalmi mezejébe sorolható. A hajnal időpontja – a vers élményét adó időszak a szöveg szerint három órától virradtig tart – kitüntetett időpont, hiszen éjfél, azaz a teljes tudatvesztés időszaka és a nappal, a józanság, a tiszta értelem világa között helyezkedik el, amikor lehetőség nyílik a két világ szembesítésére. Ne feledkezzünk meg arról a paradoxonról, amely egy olyan időt jelöl meg a megvilágosodás - „egy Úrnak vendége voltam” - időszakaként, mely a sötétség, a látást nem támogató idő tartománya. Ez a tény is jelzi, különleges, kitüntetett, átmeneti időszakban vagyunk, a „közöttlét” birodalmában. A közöttlét fizikai pozícióját pedig a magasból, egy lakásból a másikra való látás helyzete határozza meg.
-A szemléleti pozícióhoz szorosan kötődik a szembesítés tevékenysége. Az ellentétezés a szövegben az anyagi és a szellemi javakra is kiterjed. Az anyagi javak szembevétele sem újdonság Kosztolányi költészetében, gondoljunk csak a Boldog, szomorú dal számtalan szerzőt megihlető szövegére.1 
-Az első szakaszban az elaludni képtelen lírai alany (válságtünet!) a szobáját pozitív értékű szavakkal jellemzi: „családi fészek”-ként említi, ahol „lágy, álombeli mézek” teszik édessé az életet. Ám ahogy a barátot bevonja a figyelem irányításába, melynek célja a szomszéd ház, azaz az emberi létezés valódi bemutatása, egyre negatívabb értékek társulnak a szavakhoz. A Logodi utca2 szegényessé, elhagyatottá válik, az emberek már vakon, feldöntve feküsznek, agyvérszegénység burult rájuk; a lakásuk hirtelen dobozzá válik, melybe bezárva élik életüket, hogy aztán a ketrec szó alkalmazásával a leírás elérje az abszolút negatív pontot. Az emberi létezésmód negatívumát - a gépies, emberhez méltatlan, mert automatizmusra kényszerítő világát -a keltőóra megszólalása érzékelteti. A szakasz zárlatában mintegy összefoglalásként a ház egykori jövőjét megjelenítve az otthon és az állat óla szavak jelzik, hogy az első egységben még pozitív hangulatú leírás – immár a különleges időbeli és térbeli pozíció függvényében – negatívvá vált, az addig értéknek tartott jelenségek értékvesztetté lettek.
-A vers további része már a fönt világához tartozik, s a gépies, emberhez méltatlan létezés helyett az ünnepi létezés (báléj) képeit szemlélhetjük. A sorok már nem leírások, hanem látomások, ennek megfelelően a hangnem is emelkedett. (Jelen írás határai túl kicsik ahhoz, hogy alapos elemzését adjam ennek az egységnek, ezért csak az ellentétpárok bemutatására szorítkozom.)
-A látomás tere már nem egy szűkre korlátozott világ (doboz, ketrec), hanem a kozmosz, a Tejút teljes világa. Maga a képzeletbeli helyszín sem egy bérház, hanem előcsarnokkal és lépcsőkkel bíró kastély, ahol a kényszerek irányította tevékenység helyett bált láthatunk. A csönd zéró  hangjai helyett csilingelést, csodás női suttogást hallunk. Mozdulatlanság helyett a gazdag élet dinamikus igéi jelennek meg a szövegben. Az éjszaka időszakához kötődő színtelenség helyett a kék, az arany színei tündöklik tele az eget. A hangvétel, a megszólalás csodálkozó s bámuló szavai a kisgyermekkor világát idézik fel, hiszen a látomással az öregedő ember visszalép gyermeki létezésébe.
-A látomás leírása – az anyagi javak leértékelődése - után a szellemi javak vizsgálata következik. Az értékvesztés folyamatai itt is áthangolják a sorokat: a családi kötődésből fogság lesz („ ..miféle ringyók rabságába estél..”), az irodalom és az írói siker fényét veszti („ ..kopott regéket” ill. „..mily kézirat volt fontosabb tenéked, ...”), a siker érzéséből a kudarc élménye. („..könnyem” ill. „megtörötten”). A feloldás az emberi élet végességégének megértésével és avval következik be, hogy lírai alany költői szerepében kiteljesedve „dalolni” kezd „ekkor az azúrnak”, és ha nem is teljes jogú tagként, de a „vendéglétbe belesett” személyként definiálja újra magát.</p>
-</body>
+    <header>
+        <h1>Lovagok és várkisasszonyok</h1>
+    </header>
+    <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+    <div class="container-fluid first">
+        <div class="row">
+            <div class="col-md-6 text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae sapiente eveniet tempore, saepe, delectus provident quidem qui vel id cumque cupiditate veniam architecto! Consequatur mollitia quidem unde doloribus quia.
+                Molestiae non temporibus nostrum quia, ducimus assumenda voluptas delectus facere deleniti nulla. Itaque repellendus tempora praesentium! Velit laborum, nam recusandae accusamus obcaecati veritatis a repellat perspiciatis explicabo, corrupti voluptatibus voluptas.
+                Laudantium, nemo omnis repellat voluptatum soluta eos ullam qui quidem officia praesentium molestiae reprehenderit ad vero unde excepturi, magnam voluptate necessitatibus sunt minima tempore et facilis! Incidunt deserunt velit consequuntur!
+                Dignissimos minima, voluptatum laboriosam assumenda aspernatur molestias architecto consequuntur totam expedita aliquid nemo eaque delectus perspiciatis dolor excepturi enim illum rerum maxime nostrum natus asperiores dolorum aliquam dicta! Delectus, at.
+                Quod consequatur necessitatibus, cumque minima commodi sapiente provident laboriosam aliquid ipsa, facilis nisi adipisci, cum perferendis nihil molestiae magnam saepe corporis. Nulla illum ea animi neque in, veritatis quia possimus.</p>
+            </div>
 
+            <div class="col-md-6 pic">
+                <img src="lovag.webp" alt="">
+            </div>
+        </div>
+    </div>    
+</body>
 </html>
