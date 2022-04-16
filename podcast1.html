@@ -61,8 +61,6 @@
 
     .container{
         background-color: rgb(200, 200, 200);
-        width: 85%;
-        height: 80%;
         margin-top: 3%;
         border-radius: 20px 20px 20px 20px;
         margin-bottom: 6%;
@@ -84,6 +82,17 @@
       margin-bottom: 75%;
 
     }
+    .video {position: relative;
+      margin-top:100px;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;}
 
 
     
@@ -133,14 +142,22 @@
               <div class="col-sm-12">
                   <img class="img-fluid img-thumbnail rounded" src="./pict/podcast1.jpg" alt="" class="pict">
                   
-
+                  <p>
+                    Ez a kis beszélgetés a lovagkorról szól. A beszélgetésben tisztázzák a lovag kilétét, kapcsolatot találnak a celebek és a lovagok közt...<br>
+                   Megtalálható a jutyúbon, ha <a href="https://www.youtube.com/watch?v=qeUMHosz8eQ" target="_blank">ide kattintasz.</a><br>De beágyaztuk neked alább... 
+                   </p>
               </div>
-
-              <div class="col-sm-12">
-                 <p> </p>
-              </div>
-          </div>
       </div>
+      </div>    
+<div class="container">
+  <div class="row">
+              <div class="col-sm-12 video m-5">
+                <iframe  src="https://www.youtube.com/embed/qeUMHosz8eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 
+              </div>
+</div>
+</div>
+      
 
 </body>
 </html>
